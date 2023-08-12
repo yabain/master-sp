@@ -1,10 +1,26 @@
-/* style for modal */
+/* style for table */
 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+  }
+  
+  th, td {
+	text-align: left !important;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
 
+  tr:hover, td:hover {
+	color: #094b04 !important;
+  }
 
 /* style for countdounw */
 
-#demo {  
+#demo { 
 	/* font-size: 3em;
 	font-weight: 100; */
 	color: #056f38;
