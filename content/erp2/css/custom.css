@@ -1,0 +1,26 @@
+.hope{
+    background-color: aliceblue;
+   border-radius: 10px;
+}
+.word {
+    text-decoration: underline;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+    padding-bottom: 20px;
+    padding: 10px;
+    height: 60px;
+    font-size: 01.1rem;
+}
+
+.word:hover{
+    color: green;
+}
+
+.explanation {
+    display: none;
+    background-color: rgb(50, 100, 85);
+    color: aliceblue;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+}
