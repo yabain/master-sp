@@ -31,6 +31,16 @@ body {
 	min-width: 1240px;
 	padding: 25px 0;
 }
+
+
+.container-video {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+  
+
 #Wrapper {
 	width: 1240px;
 	margin: 0px auto;
@@ -457,6 +467,20 @@ body.nice-scroll:not(.layout-boxed) {
 	transition: all 0.2s ease-in-out;
 }
 @media only screen and (min-width: 768px) {
+
+	.responsive-iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 70%;
+		height: 70%;
+		border: none;
+		display: block;
+		margin: 0 auto;
+	  }
+
 	.offer_thumb .slider_pagination {
 		position: absolute;
 		left: 0;
@@ -1024,6 +1048,18 @@ body.nice-scroll:not(.layout-boxed) {
 	z-index: 2;
 }
 @media only screen and (max-width: 767px) {
+	.responsive-iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		border: none;
+		display: block;
+		margin: 0 auto;
+	  }
 	.highlight-left:after, .highlight-right:after {
 		content: none;
 	}
